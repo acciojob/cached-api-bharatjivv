@@ -1,13 +1,12 @@
-
-import React from "react";
-import './../styles/App.css';
-
+import React from 'react';
+import PostFetcher from './PostFetcher';
+import '../styles/App.css';
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <PostFetcher />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
